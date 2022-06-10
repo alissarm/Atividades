@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Selecione o código do produto</h2>
+    </header>
+
+    <div class="container">
+        <h3>Códigos:</h3>
+        <h5>*Clique para ver a classificação do produto desejado</h5>
+        <div class="div-produtos">
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#55729')">
+            <label>#55729</label> 
+            <br>
+            <input type="radio" name="produto"
+              onclick="selecionarProdutos('#22920')">
+            <label>#22920</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#22010')">
+            <label>#22010</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#78912')">
+            <label>#78912</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#82865')">
+            <label>#82865</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#77321')">
+            <label>#77321</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#21570')">
+            <label>#21570</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#56320')">
+            <label>#56320</label>
+            <br>
+            <input type="radio" name="produto" 
+              onclick="selecionarProdutos('#45565')">
+            <label>#45565</label>
+            <br>
+            <input type="radio" name="produto"  
+              onclick="selecionarProdutos('#02001')">
+            <label>#02001</label>
+            <br>
+        </div>
+        <div class="div-resultado">
+            <label>Resultado da busca:</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+          <li>Mercadinho X</li>
+            <li>Endereço: Rua do limoeiro</li>
+            <li>Telefone: (00) 0000-0000</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
