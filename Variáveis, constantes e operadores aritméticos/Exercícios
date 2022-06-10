@@ -1,0 +1,95 @@
+let nome1 = "Jorge"
+let nome2 = "Paulo"
+let nome3 = "Mary"
+
+
+let comida1 = "Banana"
+let comida2 = "Maça"
+let comida3 = "Pera"
+let comida4 = "Mamão"
+let comida5 = "Morango"
+
+
+let ns1 = " Souza" 
+let ns2 = " Ferrera" 
+
+console.log(nome1 + ns1)
+console.log(nome2 + ns2)
+
+
+isAtivo = true
+isAprovado = true
+isReprovado = false
+isRecusado = false
+isAceito = true
+isInativo = false
+
+
+let a = "2"
+let b = "13"
+let c = "12"
+let d = "3"
+let e = "42"
+let f = "15"
+let g = "10"
+let h = "25"
+
+
+const a = 5
+const b = 25
+const c = 30
+const d = 35
+const e = 22
+console.log (a,b,c,d,e)
+
+
+let Y = "25"
+let X = "5"
+ 
+console.log = (Y - X)
+
+
+let Y = "25"
+let X = "5"
+ 
+console.log = (Y / X)
+
+
+let Y = "25"
+let X = "5"
+ 
+console.log = (Y * X)
+
+
+let i = "2"
+let j = "4"
+ 
+console.log = (Z = i / j)
+
+
+input = 1899
+console.log(input+ (input * 0.05).toFixed(2))
+
+
+let valorproduto = "50"
+let quantidade = "5000"
+
+
+nome = "Mike"
+idade = "15" 
+trabalho = "10"
+prova = "5"
+
+nm = nome.lenght
+id = idade.lenght 
+tb = trabalho.lenght
+pr = prova.lenght
+console.log("O total de caracteres é de:" (nm + id + tb + pr))
+
+
+Math.pow(10, 3)
+console.log(a)
+
+
+a = Math.sqrt(25)  
+console.log(a)
