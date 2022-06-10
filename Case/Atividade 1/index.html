@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Seleção de produtos</h2>
+        <h5>Clique para ver a procedência dos nossos produtos!</h5>
+    </header>
+
+    <div class="container">
+        <h3>Lista de Produtos</h3>
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('uva')">
+            <label>Uva</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('laranja')">
+            <label>Laranja</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('maçã')">
+            <label>Maçã</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('pera')">
+            <label>Pera</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('pêssego')">
+            <label>Pêssego</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('banana')">
+            <label>Banana</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('frutas cristalizadas')">
+            <label>Frutas cristalizadas</label>
+            <br>
+        </div>
+        <div class="div-resultado">
+            <label>Resultado da busca:</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li>Mercadinho - alimentos saudáveis</li>
+            <li>Endereço: Rua do limoeiro</li>
+            <li>Telefone: (00) 0000-0000</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
