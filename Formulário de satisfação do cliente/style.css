@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+ 
+header{
+    background-color: lightcoral;
+    padding: 20px;
+    font-size: 17px;
+}
+ 
+header h2{
+    color: black;
+    text-align: center;
+}
+ 
+footer{
+    background-color: lightcoral;
+    padding: 40px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 20px;
+}
+ 
+footer li{
+    color: black;
+}
+.div-product img{
+    width: 50%;
+}
+.container{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 23px;
+    border: 2px solid black;
+    text-align: center;
+}
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 23px;
+    background-color: crimson;
+    border: 1px solid black;
+}
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.div-options {
+    margin-top: 8px;
+    display: flex;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 23px;
+    padding: 8px;
+    text-align: center;
+}
+@media screen and (max-width:650px){
+}
+.div-options{
+    display: block;
+}
+.div-options label{
+    margin-right: 5px;
+}
+.div-options button{
+    width: 100%;
+    background-color: lightcoral;
+    color: palegoldenrod;
+    border-radius: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 8px;
+}
+.div-options button:hover{
+    background-color: lightskyblue;
+    color: palegoldenrod;
+}
