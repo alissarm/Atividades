@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+header{
+    background-color: rgb(255, 203, 183);
+    color:rgb(255, 108, 54);
+    padding: 1rem;
+}
+
+nav{
+    background-color: rgb(247, 247, 247);
+    padding: 0.1rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+footer{
+    background-color: lightsalmon;
+    color:white;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+
+.container{
+    border: 2px solid lightsalmon;
+    border-radius: 10px;
+    justify-items: center;
+    width: 50vw;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.container h3{
+    background-color:  rgb(255, 163, 124);
+    color: rgb(255, 108, 54);
+    padding: 0.5rem;
+    text-align:center;
+    border-radius: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container input{
+    width: 47.5vw;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid rgb(240, 154, 97);
+    border-radius: 20px;
+    justify-items: center;
+}
+
+.container button{
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    width: 10%;
+    background-color: lightsalmon;
+    color: rgb(255, 108, 54);
+    cursor: pointer;
+    border: 1px solid rgb(255, 108, 54);
+    border-radius: 5px;
+}
+
+.container button:hover{
+    background-color: rgb(240, 154, 97);
+}
