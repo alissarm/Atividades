@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Velocidade Média</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Velocidade média</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h3>Cálculo</h3>
+        <div class="form">
+            <input type="number" id="s" placeholder="Informe o valor do deslocamento">
+            <input type="number" id="t" placeholder="Informe o intervalo de tempo">
+            <div>
+                <button type="button" onclick="Limpar()" id="btnlimpar">Limpar</button>
+                <button type="button" onclick="Calcular()" id="btncalcular">Calcular</button>
+            </div>
+            
+            <input type="number" id="vm" placeholder="Resultado da Velocidade Média" readonly>
+    </div>
+    </div>
+    <div class="container">
+        <h3>Resultados</h3>
+        <div id="resultados">
+
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>SENAI SC</li>
+            <li>Curso de Desenvolvimento de Sistemas</li>
+            <li>Lógica de Programa</li>
+            <li>Alissa Michels</li>
+        </ul>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
