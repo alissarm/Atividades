@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1ª Resposta
+        var nota1 = parseFloat(prompt("digite a nota 1"))
+        var nota2 = parseFloat(prompt("digite a nota 2"))
+
+        media = (nota1 + nota2)/2
+        console.log(media)
+        if(media>=6){
+            console.log("Aprovado")
+        } else {
+            console.log("Exame")
+            var exame =  parseFloat(prompt("digite a nota do exame"))
+            var final = (media + exame)/2
+            console.log(final)
+
+            if(final >= 6){
+                console.log("Aprovado")
+            }else {
+                console.log("Reprovado")
+            }
+        }
+
+        //2ª Resposta
+        var num = parseInt(prompt("Digite um numero"))
+
+        if(num == 0){
+            console.log("Número igual a zero")
+        }else{
+            if(num > 0){
+                console.log("Número positivo")
+                }else{
+                console.log("Número negativo")  
+        }
+    }
+        //3ª resposta
+        let num1 = parseFloat(prompt("Digite um numero"))
+        let num2 = parseFloat(prompt("Digite outro numero"))
+        if(num1 > num2)
+        console.log(num1);
+
+        else
+        console.log(num2);
+
+        //4ª Resposta
+        var sexo = prompt("Digite o seu sexo")
+
+        if(sexo == "F"){
+            console.log("Você é uma mulher!")
+        }
+            else if(sexo == "M"){
+                console.log("Você é um homem!")
+            }else{
+                console.log("Sexo diferente de F ou M")
+        }
+
+     //5ª Resposta
+        var idade = parseInt(prompt("Digite a sua idade"))
+
+        if(idade <= 10)
+            console.log("Categoria Infantil")
+
+        else if(idade <= 13)
+        console.log("Categoria Infanto Juvenil")
+
+        else if(idade <= 18)
+        console.log("Categoria Juvenil")
+
+        else
+        console.log("Categoria Adulto")
+    </script>
+</body>
+</html>
