@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerenciamento de usuários</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>cadastro do usuário</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./cadastro.html">Usuário</a></li>
+            <li><a href="./senha.html">Recuperar minha senha</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Novo usuário</h2>
+
+        <div class = "div-erro">
+            Preencha o formulario corretamente!
+        </div>
+
+        <div class="form">
+            <input type="number" id="matricula" placeholder="Matrícula do usuário">
+            <input type="text" id="nome" placeholder="Nome de usuário">
+            <input type="email" id="email" placeholder="E-mail do usuário">
+            <input type="text" id="endereço" placeholder="Endereço">
+            <input type="password" id="senha" placeholder="Senha do usuário">
+            <button type="button" onclick="addUsuario()">Cadastrar</button>
+            matricula, nome, sobrenome, data de nascimento, endereço e Serie (se for aluno). 
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>SESI SENAI</li>
+            <li>CTAI</li>
+            <li>Florianópolis</li>
+            <li>SC - 401, 3730 - Saco Grande, Florianópolis - SC</li>
+            <li>CEP 88032-005</li>
+        </ul>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
