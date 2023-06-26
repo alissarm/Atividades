@@ -1,0 +1,23 @@
+body{
+    font-family:Verdana;
+    text-align: center;
+}
+
+div.Busca{
+    padding: 2%;
+}
+
+div.Busca input{
+    width: 25%;
+    padding: 0.5%;
+    margin-bottom: 2px;
+}
+
+div.Busca button{
+    background-color: rgb(52, 194, 52);
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+    margin: 5px;
+}
