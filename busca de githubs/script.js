@@ -9,6 +9,7 @@ function getProfile(){
     fetch("https:/api.github.com/users/" + username)
     .then(res => res.json())
     .then(data => {
+        img.innerHTML = `<img src="${data.avatar_url}">`
 
         name.value = data.name
         login.value = data.login
