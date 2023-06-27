@@ -12,6 +12,11 @@ div.busca input{
     height: 30px;
     margin-top: 5px;
 }
+div.busca img{
+    margin-top: 2%;
+    width: 15%;
+    border-radius: 50%;
+}
 div.busca button{
     color:white;
     background-color: rgb(26, 25, 25);
