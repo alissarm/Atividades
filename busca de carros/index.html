@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carros</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 10%;
+            background-color: #121112;
+        }
+        .fundo h1{
+            margin-left: 1%;
+            color: white;
+        }
+        .fundo input{
+            margin-top: 1%;
+            padding: 1%;
+            width: 20%;
+            border-radius: 1rem;
+            outline-color: #ed072d;
+        }
+        .fundo button{
+            padding: 0.5%;
+            margin-left: 1%;
+            margin-top: 1%;
+            width: 10%;
+            margin-left: -01%;
+            color: white;
+            background-color: #ed072d;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo">
+    <h1>Busca de carros em api local</h1>
+    <input type="number" id="placa" placeholder="Digite a placa"><br>&nbsp;
+    <button onclick="busca()">Buscar</button><br>
+
+    <input type="text" id="marca" placeholder="Marca" readonly><br>
+    <input type="text" id="modelo" placeholder="Modelo" readonly><br>
+    <input type="number" id="ano" placeholder="Ano" readonly><br>
+</div>
+
+<script src="./script.js"></script>
+</body> 
+</html>
