@@ -1,0 +1,64 @@
+{
+    "carros":[
+        {
+            "placa": "123",
+            "marca": "Mercedes Benz",
+            "modelo": "C-180",
+            "ano": "2017"
+        },
+        {
+            "placa": "321",
+            "marca": "Ferrari",
+            "modelo": "spider",
+            "ano": "2023"
+        },
+        {
+            "placa": "456",
+            "marca": "Volkswagem",
+            "modelo": "Nivus",
+            "ano": "2023"
+        },
+        {
+            "placa": "654",
+            "marca": "Volkswagem",
+            "modelo": "Jetta",
+            "ano": "2020"
+        },
+        {
+            "placa": "789",
+            "marca": "Volkswagem",
+            "modelo": "T-cross",
+            "ano": "2015"
+        },
+        {
+            "placa": "987",
+            "marca": "Porsche",
+            "modelo": "Cayenne",
+            "ano": "2020"
+        },
+        {
+            "placa": "001",
+            "marca": "Porsche",
+            "modelo": "panamera",
+            "ano": "2019"
+        },
+        {
+            "placa": "002",
+            "marca": "Fiat",
+            "modelo": "Pulse",
+            "ano": "2018"
+        },
+        {
+            "placa": "003",
+            "marca": "Fiat",
+            "modelo": "Argo",
+            "ano": "2019"
+        },
+        {
+            "placa": "004",
+            "marca": "mitsubishi",
+            "modelo": "outlander",
+            "ano": "2023"
+        }
+    ]
+}
